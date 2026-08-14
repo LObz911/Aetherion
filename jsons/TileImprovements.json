@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Genesis Garden",
+    "uniqueTo": "Aetherion Ascendancy",
+    "terrainsCanBeBuiltOn": ["Land"],
+    "food": 99999,
+    "gold": 99999,
+    "culture": 99999,
+    "faith": 99999,
+    "production": 99999,
+    "science": 99999,
+    "turnsToBuild": 0,
+    "techRequired": "Agriculture",
+    "uniques": [
+      "Removes removable features when built",
+      "Will not be replaced by automated units",
+      "Pillaging this improvement yields approximately [+99999 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A one-turn planetary garden that supplies 99,999 of every major city yield from a single tile."
+      }
+    ]
+  },
+  {
+    "name": "Continuum Spire",
+    "uniqueTo": "Aetherion Ascendancy",
+    "terrainsCanBeBuiltOn": ["Land"],
+    "food": 99999,
+    "gold": 99999,
+    "culture": 99999,
+    "faith": 99999,
+    "production": 99999,
+    "science": 99999,
+    "turnsToBuild": 0,
+    "techRequired": "Writing",
+    "uniques": [
+      "Removes removable features when built",
+      "Will not be replaced by automated units",
+      "Pillaging this improvement yields approximately [+99999 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A one-turn reality antenna that converts the surrounding continuum into 99,999 of every major city yield."
+      }
+    ]
+  }
+]

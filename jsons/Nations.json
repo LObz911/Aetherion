@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Aetherion Ascendancy",
+    "leaderName": "Archon Nyra Voss",
+    "adjective": ["Aetherion"],
+    "favoredReligion": "Continuum Ascendance",
+    "preferredVictoryType": "Domination",
+    "startBias": ["Coast"],
+    "startIntroPart1": "Beyond the dying stars, the Aetherion Ascendancy mastered matter, memory and war. Its fleets crossed the void not in search of survival, but dominion.",
+    "startIntroPart2": "Archon Nyra Voss, the Continuum has opened a path into a younger world. Will you guide Aetherion to unquestioned supremacy and forge an empire that outlives the stars?",
+    "declaringWar": "Your future has been calculated. It ends beneath our shadow.",
+    "attacked": "You have mistaken restraint for weakness. The correction will be absolute.",
+    "defeated": "The Continuum fractures, but our signal will cross eternity.",
+    "denounced": "Your accusation has been recorded among the final errors of your age.",
+    "declaringFriendship": "Stand beside us, and history may remember your name.",
+    "introduction": "I am Archon Nyra Voss. Speak clearly; the Ascendancy has little use for hesitation.",
+    "neutralHello": "The Continuum is listening.",
+    "hateHello": "You are consuming time that no longer belongs to you.",
+    "tradeRequest": "This exchange benefits you more than you understand.",
+    "outerColor": [10, 15, 38],
+    "innerColor": [88, 238, 255],
+    "uniqueName": "Sovereigns of the Continuum",
+    "uniqueText": "Absolute power fantasy: 99,999 Food, Gold, Culture and Faith per city each turn; nearly free purchases; one-turn construction and tile improvements; 9,999-fold resources; ascendant religion; devastating armies and map-spanning movement.",
+    "uniques": [
+      "[+99999 Food, +99999 Gold, +99999 Culture, +99999 Faith, +1000 Science, +1000 Production, +1000 Happiness] [in all cities]",
+      "[+100]% Production when constructing [Military] units [in all cities]",
+      "[+999900]% Production when constructing [All] buildings [in all cities]",
+      "[+999900]% Production when constructing [All] wonders [in all cities]",
+      "May buy [All] units for [10] [Gold] [in all cities]",
+      "May buy [All] buildings for [10] [Gold] [in all cities]",
+      "May buy [All] buildings for [10] [Faith] [in all cities]",
+      "May buy items in puppet cities",
+      "[-99]% construction time for [All] improvements",
+      "[+999800]% [Luxury] resource production",
+      "[+999800]% [Strategic] resource production",
+      "[-75]% maintenance costs <for [Military] units>",
+      "[+100]% Strength for cities",
+      "[+10000]% Strength <for [Military] units>",
+      "[+50] Movement <for [Military] units>",
+      "[+10] Sight <for [Military] units>",
+      "[-100]% unhappiness from the number of cities",
+      "[-100]% Unhappiness from [Population] [in all cities]",
+      "May choose [4] additional belief(s) of any type when [founding] a religion",
+      "All healing effects doubled",
+      "Heals [100] damage if it kills a unit"
+    ],
+    "cities": [
+      "Aether Prime",
+      "Voss Meridian",
+      "Helix Crown",
+      "Nova Imperium",
+      "Continuum Gate",
+      "Orion Vault",
+      "Zenith Array",
+      "Eclipse Bastion",
+      "Titan Spire",
+      "Lumen Reach",
+      "Astral Forge",
+      "Nexus Zero",
+      "Celestine",
+      "Eventide",
+      "Parallax",
+      "Hyperion",
+      "Axiom",
+      "Vanguard",
+      "Umbra Station",
+      "Radiant Hold",
+      "Solace Nine",
+      "Arc Meridian",
+      "Pulsar Keep",
+      "Obsidian Halo",
+      "Seraph Vector",
+      "Quasar Throne",
+      "Aeon Citadel",
+      "Vectoris",
+      "The Last Horizon",
+      "Singularity Crown"
+    ],
+    "spyNames": [
+      "Cipher",
+      "Echo",
+      "Nyx",
+      "Orion",
+      "Sable",
+      "Vega",
+      "Kestrel",
+      "Helix",
+      "Nova",
+      "Zero"
+    ],
+    "civilopediaText": [
+      {
+        "text": "The Aetherion Ascendancy is an original science-fiction civilization created for players who want a deliberately unbalanced power fantasy."
+      },
+      {
+        "text": "Its cities complete normal construction in one turn, can purchase almost anything, ignore occupation unhappiness and turn every acquired tradable resource into 9,999 times its normal quantity."
+      },
+      {
+        "text": "Every Aetherion military unit receives overwhelming combat strength, fifty extra movement and extended sight, allowing armies to cross huge portions of the map in a single turn."
+      },
+      {
+        "text": "Aetherion workers complete ordinary tile improvements in one turn, while Genesis Gardens and Continuum Spires produce impossible yields from individual tiles."
+      },
+      {
+        "text": "Continuum Ascendance is the civilization's favored religion and unlocks original beliefs built around infinite wealth, growth, culture, faith and religious pressure."
+      }
+    ]
+  }
+]

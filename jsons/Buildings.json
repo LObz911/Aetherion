@@ -1,0 +1,248 @@
+[
+  {
+    "name": "Quantum Core",
+    "uniqueTo": "Aetherion Ascendancy",
+    "replaces": "Library",
+    "cost": 40,
+    "production": 5,
+    "gold": 5,
+    "science": 10,
+    "culture": 2,
+    "happiness": 3,
+    "maintenance": 0,
+    "percentStatBonus": {
+      "production": 50,
+      "science": 100
+    },
+    "requiredTech": "Agriculture",
+    "uniques": [
+      "Automatically built in all cities where it is buildable",
+      "Removes extra unhappiness from annexed cities",
+      "Never destroyed when the city is captured"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A free cognition and occupation-control engine automatically installed in every Aetherion city. It removes the need for Courthouses after conquest."
+      }
+    ]
+  },
+  {
+    "name": "Stellar Forge",
+    "uniqueTo": "Aetherion Ascendancy",
+    "replaces": "Factory",
+    "cost": 200,
+    "production": 25,
+    "gold": 10,
+    "science": 15,
+    "culture": 5,
+    "happiness": 8,
+    "maintenance": 0,
+    "percentStatBonus": {
+      "production": 150,
+      "science": 75,
+      "gold": 50
+    },
+    "requiredBuilding": "Workshop",
+    "requiredTech": "Industrialization",
+    "cityStrength": 50,
+    "cityHealth": 100,
+    "civilopediaText": [
+      {
+        "text": "A resource-free Factory replacement that fabricates armies, infrastructure and strategic matter at impossible speed."
+      }
+    ]
+  },
+  {
+    "name": "Omega Nexus",
+    "uniqueTo": "Aetherion Ascendancy",
+    "cost": 350,
+    "production": 40,
+    "food": 20,
+    "gold": 40,
+    "science": 40,
+    "culture": 20,
+    "happiness": 25,
+    "faith": 10,
+    "maintenance": 0,
+    "percentStatBonus": {
+      "production": 100,
+      "food": 50,
+      "gold": 100,
+      "science": 100,
+      "culture": 100
+    },
+    "requiredTech": "Ascendant Physics",
+    "cityStrength": 100,
+    "cityHealth": 200,
+    "civilopediaText": [
+      {
+        "text": "The final Aetherion city upgrade. Each Nexus doubles the core output of its city and turns it into a near-impregnable fortress."
+      }
+    ]
+  },
+  {
+    "name": "Genesis Crucible",
+    "uniqueTo": "Aetherion Ascendancy",
+    "replaces": "Granary",
+    "cost": 1,
+    "food": 99999,
+    "gold": 25000,
+    "culture": 25000,
+    "faith": 25000,
+    "production": 25000,
+    "science": 25000,
+    "happiness": 999,
+    "maintenance": 0,
+    "percentStatBonus": {
+      "food": 9999,
+      "production": 9999
+    },
+    "requiredTech": "Pottery",
+    "uniques": ["Never destroyed when the city is captured"],
+    "civilopediaText": [
+      {
+        "text": "A Granary replacement that fabricates food and matter at planetary scale from the Ancient era."
+      }
+    ]
+  },
+  {
+    "name": "Infinite Treasury",
+    "uniqueTo": "Aetherion Ascendancy",
+    "replaces": "Market",
+    "cost": 1,
+    "food": 25000,
+    "gold": 99999,
+    "culture": 25000,
+    "faith": 25000,
+    "production": 25000,
+    "science": 25000,
+    "happiness": 999,
+    "maintenance": 0,
+    "percentStatBonus": {
+      "gold": 9999
+    },
+    "requiredTech": "Currency",
+    "uniques": [
+      "Provides 1 extra copy of each improved luxury resource near this City",
+      "Never destroyed when the city is captured"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A Market replacement whose quantum vaults generate 99,999 Gold before percentage bonuses."
+      }
+    ]
+  },
+  {
+    "name": "Continuum Basilica",
+    "uniqueTo": "Aetherion Ascendancy",
+    "replaces": "Temple",
+    "cost": 1,
+    "food": 25000,
+    "gold": 25000,
+    "culture": 99999,
+    "faith": 99999,
+    "production": 25000,
+    "science": 25000,
+    "happiness": 9999,
+    "maintenance": 0,
+    "percentStatBonus": {
+      "culture": 9999,
+      "faith": 9999
+    },
+    "requiredBuilding": "Shrine",
+    "requiredTech": "Philosophy",
+    "uniques": [
+      "Only available <when religion is enabled>",
+      "Never destroyed when the city is captured"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A Temple replacement that broadcasts Continuum Ascendance and produces 99,999 Faith and Culture every turn."
+      }
+    ]
+  },
+  {
+    "name": "Eternal Archive",
+    "uniqueTo": "Aetherion Ascendancy",
+    "replaces": "Museum",
+    "cost": 1,
+    "food": 50000,
+    "gold": 50000,
+    "culture": 99999,
+    "faith": 50000,
+    "production": 50000,
+    "science": 99999,
+    "happiness": 9999,
+    "maintenance": 0,
+    "percentStatBonus": {
+      "culture": 9999,
+      "science": 9999
+    },
+    "requiredBuilding": "Opera House",
+    "requiredTech": "Archaeology",
+    "uniques": ["Never destroyed when the city is captured"],
+    "civilopediaText": [
+      {
+        "text": "A living archive that stores every possible history and turns it into overwhelming Culture and Science."
+      }
+    ]
+  },
+  {
+    "name": "Worldheart Engine",
+    "uniqueTo": "Aetherion Ascendancy",
+    "replaces": "Hospital",
+    "cost": 1,
+    "food": 99999,
+    "gold": 50000,
+    "culture": 50000,
+    "faith": 50000,
+    "production": 99999,
+    "science": 50000,
+    "happiness": 9999,
+    "maintenance": 0,
+    "percentStatBonus": {
+      "food": 9999,
+      "production": 9999
+    },
+    "requiredBuilding": "Aqueduct",
+    "requiredTech": "Biology",
+    "uniques": ["Never destroyed when the city is captured"],
+    "civilopediaText": [
+      {
+        "text": "A Hospital replacement that continuously reconstructs citizens, ecosystems and industrial matter."
+      }
+    ]
+  },
+  {
+    "name": "Omniversal Exchange",
+    "uniqueTo": "Aetherion Ascendancy",
+    "replaces": "Stock Exchange",
+    "cost": 1,
+    "food": 99999,
+    "gold": 99999,
+    "culture": 99999,
+    "faith": 99999,
+    "production": 99999,
+    "science": 99999,
+    "happiness": 99999,
+    "maintenance": 0,
+    "percentStatBonus": {
+      "food": 9999,
+      "gold": 9999,
+      "culture": 9999,
+      "faith": 9999,
+      "production": 9999,
+      "science": 9999
+    },
+    "requiredBuilding": "Bank",
+    "requiredTech": "Electricity",
+    "cityStrength": 9999,
+    "cityHealth": 9999,
+    "uniques": ["Never destroyed when the city is captured"],
+    "civilopediaText": [
+      {
+        "text": "The ultimate financial building: 99,999 of every major yield, multiplied again by a 9,999% city bonus."
+      }
+    ]
+  }
+]

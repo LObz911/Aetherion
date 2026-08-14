@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Quantum Revelation",
+    "type": "Pantheon",
+    "uniques": [
+      "[+99999 Food, +99999 Gold, +99999 Culture, +99999 Faith] [in cities following this religion]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "The first revelation of the Continuum floods every faithful city with limitless sustenance, wealth, culture and faith."
+      }
+    ]
+  },
+  {
+    "name": "Tithe of Stars",
+    "type": "Founder",
+    "uniques": [
+      "[+99999 Gold, +99999 Faith] for each global city following this religion"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Every city touched by the religion pays an impossible stellar tithe to its founder."
+      }
+    ]
+  },
+  {
+    "name": "Genesis Communion",
+    "type": "Follower",
+    "uniques": [
+      "[+99999 Food, +99999 Culture, +99999 Faith] [in cities following this religion]",
+      "[+9999]% growth [in cities following this religion]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Followers share a self-renewing genesis field that drives explosive growth and cultural unity."
+      }
+    ]
+  },
+  {
+    "name": "Ascendant Crusade",
+    "type": "Follower",
+    "uniques": [
+      "May buy [Military] units for [10] [Faith] [in cities following this religion]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Faith materializes entire armies for the Continuum at almost no cost."
+      }
+    ]
+  },
+  {
+    "name": "Infinite Resonance",
+    "type": "Enhancer",
+    "uniques": [
+      "[+9999]% Natural religion spread [in all cities]",
+      "Religion naturally spreads to cities [999] tiles away"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Continuum Ascendance resonates across the entire map, overwhelming distance and ordinary religious pressure."
+      }
+    ]
+  }
+]
