@@ -1,0 +1,232 @@
+[
+  {
+    "name": "Voidwalker Legion",
+    "unitType": "Sword",
+    "uniqueTo": "Aetherion Ascendancy",
+    "replaces": "Warrior",
+    "movement": 4,
+    "strength": 32,
+    "cost": 30,
+    "requiredTech": "Agriculture",
+    "upgradesTo": "Riftblade Vanguard",
+    "obsoleteTech": "Iron Working",
+    "uniques": [
+      "Can move after attacking",
+      "Ignores Zone of Control",
+      "Heals [25] damage if it kills a unit",
+      "All healing effects doubled"
+    ],
+    "promotions": ["Shock I", "Drill I"],
+    "attackSound": "metalhit",
+    "civilopediaText": [
+      {
+        "text": "The first stage of Aetherion's infantry evolution. It upgrades into the visibly heavier Riftblade Vanguard."
+      }
+    ]
+  },
+  {
+    "name": "Riftblade Vanguard",
+    "unitType": "Sword",
+    "uniqueTo": "Aetherion Ascendancy",
+    "replaces": "Swordsman",
+    "movement": 10,
+    "strength": 300,
+    "cost": 40,
+    "requiredTech": "Iron Working",
+    "upgradesTo": "Chrono Praetorian",
+    "obsoleteTech": "Steel",
+    "uniques": [
+      "Can move after attacking",
+      "Ignores Zone of Control",
+      "[2] additional attacks per turn",
+      "Heals [100] damage if it kills a unit",
+      "All healing effects doubled",
+      "Never appears as a Barbarian unit"
+    ],
+    "promotions": ["Shock I", "Drill I"],
+    "attackSound": "metalhit",
+    "civilopediaText": [
+      {
+        "text": "A plated rift duelist with twin energy blades. Its unique map sprite replaces the lighter Voidwalker silhouette after upgrading."
+      }
+    ]
+  },
+  {
+    "name": "Chrono Praetorian",
+    "unitType": "Sword",
+    "uniqueTo": "Aetherion Ascendancy",
+    "replaces": "Longswordsman",
+    "movement": 15,
+    "strength": 900,
+    "cost": 60,
+    "requiredTech": "Steel",
+    "upgradesTo": "Nova Guard",
+    "obsoleteTech": "Rifling",
+    "uniques": [
+      "Can move after attacking",
+      "Ignores Zone of Control",
+      "[3] additional attacks per turn",
+      "Heals [100] damage if it kills a unit",
+      "All healing effects doubled",
+      "[+300]% Strength <vs cities> <when attacking>",
+      "Never appears as a Barbarian unit"
+    ],
+    "promotions": ["Shock II", "Drill II"],
+    "attackSound": "metalhit",
+    "civilopediaText": [
+      {
+        "text": "A time-armoured praetorian whose halo shield and heavy exoskeleton visibly distinguish it from the Riftblade Vanguard."
+      }
+    ]
+  },
+  {
+    "name": "Nova Guard",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Aetherion Ascendancy",
+    "replaces": "Rifleman",
+    "movement": 20,
+    "strength": 2500,
+    "cost": 80,
+    "requiredTech": "Rifling",
+    "upgradesTo": "Phasebound Exarch",
+    "obsoleteTech": "Plastics",
+    "uniques": [
+      "Can move after attacking",
+      "Ignores Zone of Control",
+      "[4] additional attacks per turn",
+      "Heals [100] damage if it kills a unit",
+      "All healing effects doubled",
+      "[+500]% Strength <vs cities> <when attacking>",
+      "Never appears as a Barbarian unit"
+    ],
+    "promotions": ["Shock III", "Drill III", "Blitz"],
+    "attackSound": "shot",
+    "civilopediaText": [
+      {
+        "text": "A powered stellar rifleman with a radiant chest core and a completely new sprite for the industrial stage of the upgrade chain."
+      }
+    ]
+  },
+  {
+    "name": "Phasebound Exarch",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Aetherion Ascendancy",
+    "replaces": "Infantry",
+    "movement": 30,
+    "strength": 7500,
+    "cost": 100,
+    "requiredTech": "Plastics",
+    "upgradesTo": "Singularity Titan",
+    "obsoleteTech": "Nuclear Fusion",
+    "uniques": [
+      "Can move after attacking",
+      "Ignores Zone of Control",
+      "[6] additional attacks per turn",
+      "Heals [100] damage if it kills a unit",
+      "All healing effects doubled",
+      "[+1000]% Strength <vs cities> <when attacking>",
+      "Never appears as a Barbarian unit"
+    ],
+    "promotions": ["Shock III", "Drill III", "Blitz", "March"],
+    "attackSound": "tankshot",
+    "civilopediaText": [
+      {
+        "text": "A hovering late-game exarch surrounded by phase emitters. It is the final humanoid form before upgrading into the Singularity Titan."
+      }
+    ]
+  },
+  {
+    "name": "Singularity Titan",
+    "unitType": "Armored",
+    "uniqueTo": "Aetherion Ascendancy",
+    "replaces": "Giant Death Robot",
+    "movement": 7,
+    "strength": 25000,
+    "cost": 300,
+    "requiredTech": "Nuclear Fusion",
+    "uniques": [
+      "Can move after attacking",
+      "Ignores Zone of Control",
+      "[10] additional attacks per turn",
+      "Heals [50] damage if it kills a unit",
+      "All healing effects doubled",
+      "[+100]% Strength <vs cities> <when attacking>",
+      "Never appears as a Barbarian unit"
+    ],
+    "attackSound": "gdrAttack",
+    "civilopediaText": [
+      {
+        "text": "A resource-free replacement for the Giant Death Robot, designed to break late-game armies and cities in a single offensive."
+      }
+    ]
+  },
+  {
+    "name": "Reality Breaker",
+    "unitType": "Siege",
+    "uniqueTo": "Aetherion Ascendancy",
+    "movement": 5,
+    "strength": 160,
+    "rangedStrength": 420,
+    "range": 4,
+    "cost": 250,
+    "requiredTech": "Ascendant Physics",
+    "uniques": [
+      "[+300]% Strength <vs cities> <when attacking>",
+      "Can move after attacking",
+      "Ignores Zone of Control",
+      "[+2] Sight",
+      "Never appears as a Barbarian unit"
+    ],
+    "attackSound": "artillery",
+    "civilopediaText": [
+      {
+        "text": "A long-range siege platform that weaponizes controlled singularities. It is unlocked by Ascendant Physics."
+      }
+    ]
+  },
+  {
+    "name": "Quantum Fabricator",
+    "unitType": "Civilian",
+    "uniqueTo": "Aetherion Ascendancy",
+    "replaces": "Worker",
+    "movement": 50,
+    "cost": 1,
+    "requiredTech": "Agriculture",
+    "uniques": [
+      "Can build [Land] improvements on tiles",
+      "Can build [All] improvements at a [+999900]% rate",
+      "Automation is a primary action",
+      "Ignores Zone of Control",
+      "Uncapturable"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A fast autonomous constructor that completes ordinary improvements in one turn and can create Aetherion's exclusive improvements."
+      }
+    ]
+  },
+  {
+    "name": "Worldshaper Architect",
+    "unitType": "Civilian",
+    "uniqueTo": "Aetherion Ascendancy",
+    "replaces": "Great Engineer",
+    "movement": 60,
+    "cost": 10,
+    "requiredTech": "Construction",
+    "uniques": [
+      "Can build [Land] improvements on tiles",
+      "Can build [All] improvements at a [+999900]% rate",
+      "Can instantly construct a [Genesis Garden] improvement",
+      "Can instantly construct a [Continuum Spire] improvement",
+      "Can speed up construction of a building",
+      "Automation is a primary action",
+      "Ignores Zone of Control",
+      "Uncapturable"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A reusable levitating construction mech that can place either Aetherion great improvement instantly without being consumed."
+      }
+    ]
+  }
+]

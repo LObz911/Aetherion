@@ -1,0 +1,16 @@
+name: Validate mod JSON
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Validate strict JSON syntax
+        run: find jsons -type f -name '*.json' -print0 | xargs -0 -n1 jq empty
+      - name: Validate mod references and required assets
+        run: node tools/validate-mod.cjs

@@ -1,0 +1,27 @@
+[
+  {
+    "columnNumber": 18,
+    "era": "Future era",
+    "techCost": 10000,
+    "buildingCost": 1000,
+    "wonderCost": 2000,
+    "techs": [
+      {
+        "name": "Ascendant Physics",
+        "row": 5,
+        "cost": 8000,
+        "prerequisites": ["Future Tech"],
+        "uniques": [
+          "Reveals the entire map",
+          "[+2] Movement <for [Military] units>"
+        ],
+        "quote": "The universe is not a prison of laws. It is an instrument awaiting a will.",
+        "civilopediaText": [
+          {
+            "text": "Ascendant Physics unlocks the Reality Breaker and Omega Nexus after Future Tech has been researched once."
+          }
+        ]
+      }
+    ]
+  }
+]
