@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.4.0 — Omniversal Engineering
+
+- Expanded the Quantum Fabricator and Worldshaper Architect from land-only construction to every available land and water improvement category.
+- Added direct water travel without embarking and instant Great Improvement construction to both builders.
+- Preserved extreme improvement speed, automation and the Worldshaper Architect's instant Genesis Garden and Continuum Spire actions.
+- Enabled base-game construction such as Fishing Boats, Offshore Platforms, Oil wells, roads and railroads whenever their normal technology, resource and terrain requirements are met.
+- Added six one-turn Aetherion improvements: Excavation Site, Stellar Fishery, Abyssal Extractor, Quantum Reef, Orbital Dockyard and Riftway Nexus.
+- Added water-focused yield options across Sailing, Navigation, Refrigeration and Ecology, plus the land-or-water Riftway Nexus at Ascendant Physics.
+- Documented builder permissions and the technology, terrain and resource rules that still govern each construction action.
+
 ## 0.3.0 — Infinite Dominion
 
 - Expanded the infantry line into six visually distinct upgrade stages ending with the Singularity Titan.

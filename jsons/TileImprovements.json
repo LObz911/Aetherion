@@ -44,5 +44,126 @@
         "text": "A one-turn reality antenna that converts the surrounding continuum into 99,999 of every major city yield."
       }
     ]
+  },
+  {
+    "name": "Excavation Site",
+    "uniqueTo": "Aetherion Ascendancy",
+    "terrainsCanBeBuiltOn": ["Land"],
+    "gold": 99999,
+    "culture": 99999,
+    "science": 99999,
+    "turnsToBuild": 0,
+    "techRequired": "Archaeology",
+    "uniques": [
+      "Removes removable features when built",
+      "Will not be replaced by automated units",
+      "Pillaging this improvement yields approximately [+99999 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A one-turn land excavation complex that recovers lost civilizations as 99,999 Gold, Culture and Science. It becomes available with Archaeology."
+      }
+    ]
+  },
+  {
+    "name": "Stellar Fishery",
+    "uniqueTo": "Aetherion Ascendancy",
+    "terrainsCanBeBuiltOn": ["Water"],
+    "food": 99999,
+    "gold": 99999,
+    "science": 99999,
+    "turnsToBuild": 0,
+    "techRequired": "Sailing",
+    "uniques": [
+      "Will not be replaced by automated units",
+      "Pillaging this improvement yields approximately [+99999 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A one-turn waterborne harvesting lattice that produces 99,999 Food, Gold and Science. It becomes available with Sailing."
+      }
+    ]
+  },
+  {
+    "name": "Abyssal Extractor",
+    "uniqueTo": "Aetherion Ascendancy",
+    "terrainsCanBeBuiltOn": ["Water"],
+    "production": 99999,
+    "gold": 99999,
+    "science": 99999,
+    "turnsToBuild": 0,
+    "techRequired": "Refrigeration",
+    "uniques": [
+      "Will not be replaced by automated units",
+      "Pillaging this improvement yields approximately [+99999 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A one-turn deep-ocean extraction platform that produces 99,999 Production, Gold and Science. It becomes available with Refrigeration."
+      }
+    ]
+  },
+  {
+    "name": "Quantum Reef",
+    "uniqueTo": "Aetherion Ascendancy",
+    "terrainsCanBeBuiltOn": ["Water"],
+    "food": 99999,
+    "culture": 99999,
+    "faith": 99999,
+    "science": 99999,
+    "turnsToBuild": 0,
+    "techRequired": "Ecology",
+    "uniques": [
+      "Will not be replaced by automated units",
+      "Pillaging this improvement yields approximately [+99999 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A one-turn engineered ocean habitat that produces 99,999 Food, Culture, Faith and Science. It becomes available with Ecology."
+      }
+    ]
+  },
+  {
+    "name": "Orbital Dockyard",
+    "uniqueTo": "Aetherion Ascendancy",
+    "terrainsCanBeBuiltOn": ["Water"],
+    "production": 99999,
+    "gold": 99999,
+    "culture": 99999,
+    "science": 99999,
+    "turnsToBuild": 0,
+    "techRequired": "Navigation",
+    "uniques": [
+      "Will not be replaced by automated units",
+      "Pillaging this improvement yields approximately [+99999 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A one-turn ocean dockyard linked to orbital foundries, producing 99,999 Production, Gold, Culture and Science. It becomes available with Navigation."
+      }
+    ]
+  },
+  {
+    "name": "Riftway Nexus",
+    "uniqueTo": "Aetherion Ascendancy",
+    "terrainsCanBeBuiltOn": ["Land", "Water"],
+    "food": 99999,
+    "gold": 99999,
+    "culture": 99999,
+    "faith": 99999,
+    "production": 99999,
+    "science": 99999,
+    "turnsToBuild": 0,
+    "techRequired": "Ascendant Physics",
+    "uniques": [
+      "Gives a defensive bonus of [999]%",
+      "Will not be replaced by automated units",
+      "Pillaging this improvement yields approximately [+99999 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A one-turn interdimensional fortress that can anchor on land or water. It produces 99,999 of every major yield and grants a 999% defensive bonus after Ascendant Physics is discovered."
+      }
+    ]
   }
 ]

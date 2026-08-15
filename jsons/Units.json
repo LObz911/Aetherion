@@ -193,15 +193,17 @@
     "cost": 1,
     "requiredTech": "Agriculture",
     "uniques": [
-      "Can build [Land] improvements on tiles",
+      "Can build [All] improvements on tiles",
       "Can build [All] improvements at a [+999900]% rate",
+      "May travel on Water tiles without embarking",
+      "Can instantly construct a [Great Improvement] improvement",
       "Automation is a primary action",
       "Ignores Zone of Control",
       "Uncapturable"
     ],
     "civilopediaText": [
       {
-        "text": "A fast autonomous constructor that completes ordinary improvements in one turn and can create Aetherion's exclusive improvements."
+        "text": "A fast amphibious constructor that can create every available land, water, route, resource and Great Improvement. It completes work at extreme speed, but each improvement still obeys its own technology, resource and terrain rules."
       }
     ]
   },
@@ -214,8 +216,10 @@
     "cost": 10,
     "requiredTech": "Construction",
     "uniques": [
-      "Can build [Land] improvements on tiles",
+      "Can build [All] improvements on tiles",
       "Can build [All] improvements at a [+999900]% rate",
+      "May travel on Water tiles without embarking",
+      "Can instantly construct a [Great Improvement] improvement",
       "Can instantly construct a [Genesis Garden] improvement",
       "Can instantly construct a [Continuum Spire] improvement",
       "Can speed up construction of a building",
@@ -225,7 +229,7 @@
     ],
     "civilopediaText": [
       {
-        "text": "A reusable levitating construction mech that can place either Aetherion great improvement instantly without being consumed."
+        "text": "A reusable amphibious construction mech that can build every available land and water improvement at extreme speed. It can instantly place Great Improvements, Genesis Gardens and Continuum Spires while normal technology, resource and terrain requirements remain in force."
       }
     ]
   }

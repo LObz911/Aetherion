@@ -101,170 +101,212 @@ ImprovementIcons/Continuum Spire
   orig: 200, 200
   offset: 0, 0
   index: -1
-ReligionIcons/Continuum Ascendance
+ImprovementIcons/Excavation Site
   rotate: false
   xy: 1048, 272
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ReligionIcons/Quantum Revelation
+ImprovementIcons/Stellar Fishery
   rotate: false
   xy: 1256, 272
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ReligionIcons/Tithe of Stars
+ImprovementIcons/Abyssal Extractor
   rotate: false
   xy: 1464, 272
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ReligionIcons/Genesis Communion
+ImprovementIcons/Quantum Reef
   rotate: false
   xy: 1672, 272
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ReligionIcons/Ascendant Crusade
+ImprovementIcons/Orbital Dockyard
   rotate: false
   xy: 8, 480
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ReligionIcons/Infinite Resonance
+ImprovementIcons/Riftway Nexus
   rotate: false
   xy: 216, 480
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Voidwalker Legion
+ReligionIcons/Continuum Ascendance
   rotate: false
   xy: 424, 480
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Voidwalker Legion
+ReligionIcons/Quantum Revelation
   rotate: false
   xy: 632, 480
-  size: 192, 192
-  orig: 192, 192
-  offset: 0, 0
-  index: -1
-UnitIcons/Riftblade Vanguard
-  rotate: false
-  xy: 832, 480
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Riftblade Vanguard
+ReligionIcons/Tithe of Stars
   rotate: false
-  xy: 1040, 480
-  size: 192, 192
-  orig: 192, 192
-  offset: 0, 0
-  index: -1
-UnitIcons/Chrono Praetorian
-  rotate: false
-  xy: 1240, 480
+  xy: 840, 480
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Chrono Praetorian
+ReligionIcons/Genesis Communion
   rotate: false
-  xy: 1448, 480
-  size: 192, 192
-  orig: 192, 192
-  offset: 0, 0
-  index: -1
-UnitIcons/Nova Guard
-  rotate: false
-  xy: 1648, 480
+  xy: 1048, 480
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Nova Guard
+ReligionIcons/Ascendant Crusade
+  rotate: false
+  xy: 1256, 480
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ReligionIcons/Infinite Resonance
+  rotate: false
+  xy: 1464, 480
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Voidwalker Legion
+  rotate: false
+  xy: 1672, 480
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Voidwalker Legion
   rotate: false
   xy: 8, 688
   size: 192, 192
   orig: 192, 192
   offset: 0, 0
   index: -1
-UnitIcons/Phasebound Exarch
+UnitIcons/Riftblade Vanguard
   rotate: false
   xy: 208, 688
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Phasebound Exarch
+TileSets/AbsoluteUnits/Units/Riftblade Vanguard
   rotate: false
   xy: 416, 688
   size: 192, 192
   orig: 192, 192
   offset: 0, 0
   index: -1
-UnitIcons/Singularity Titan
+UnitIcons/Chrono Praetorian
   rotate: false
   xy: 616, 688
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Singularity Titan
+TileSets/AbsoluteUnits/Units/Chrono Praetorian
   rotate: false
   xy: 824, 688
   size: 192, 192
   orig: 192, 192
   offset: 0, 0
   index: -1
-UnitIcons/Reality Breaker
+UnitIcons/Nova Guard
   rotate: false
   xy: 1024, 688
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Reality Breaker
+TileSets/AbsoluteUnits/Units/Nova Guard
   rotate: false
   xy: 1232, 688
   size: 192, 192
   orig: 192, 192
   offset: 0, 0
   index: -1
-UnitIcons/Quantum Fabricator
+UnitIcons/Phasebound Exarch
   rotate: false
   xy: 1432, 688
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Quantum Fabricator
+TileSets/AbsoluteUnits/Units/Phasebound Exarch
   rotate: false
   xy: 1640, 688
   size: 192, 192
   orig: 192, 192
   offset: 0, 0
   index: -1
-UnitIcons/Worldshaper Architect
+UnitIcons/Singularity Titan
   rotate: false
   xy: 1840, 688
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Worldshaper Architect
+TileSets/AbsoluteUnits/Units/Singularity Titan
   rotate: false
   xy: 8, 896
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+UnitIcons/Reality Breaker
+  rotate: false
+  xy: 208, 896
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Reality Breaker
+  rotate: false
+  xy: 416, 896
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+UnitIcons/Quantum Fabricator
+  rotate: false
+  xy: 616, 896
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Quantum Fabricator
+  rotate: false
+  xy: 824, 896
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+UnitIcons/Worldshaper Architect
+  rotate: false
+  xy: 1024, 896
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Worldshaper Architect
+  rotate: false
+  xy: 1232, 896
   size: 192, 192
   orig: 192, 192
   offset: 0, 0
