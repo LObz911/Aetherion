@@ -80,12 +80,16 @@ const techs = techColumns.flatMap(column => column.techs || []);
 assertUnique(techs, 'technology');
 const availableTechs = new Set([
   'Agriculture',
+  'Sailing',
   'Writing',
   'Pottery',
   'Currency',
   'Philosophy',
   'Archaeology',
   'Biology',
+  'Refrigeration',
+  'Ecology',
+  'Navigation',
   'Electricity',
   'Construction',
   'Iron Working',
@@ -108,6 +112,70 @@ for (const improvement of improvements) {
   assert(availableTechs.has(improvement.techRequired), `${improvement.name} references unknown technology ${improvement.techRequired}`);
   assert(improvement.turnsToBuild === 0, `${improvement.name} must build in one turn`);
 }
+
+const requiredBuilderUniques = [
+  'Can build [All] improvements on tiles',
+  'May travel on Water tiles without embarking',
+  'Can instantly construct a [Great Improvement] improvement',
+  'Can build [All] improvements at a [+999900]% rate',
+  'Automation is a primary action'
+];
+const forbiddenBuilderUniques = [
+  'May create improvements on water resources',
+  'Can build [Land] improvements on tiles'
+];
+for (const builderName of ['Quantum Fabricator', 'Worldshaper Architect']) {
+  const builder = units.find(unit => unit.name === builderName);
+  assert(builder, `Missing builder ${builderName}`);
+  for (const unique of requiredBuilderUniques) {
+    assert(builder.uniques?.includes(unique), `${builderName} is missing required unique: ${unique}`);
+  }
+  for (const unique of forbiddenBuilderUniques) {
+    assert(!builder.uniques?.includes(unique), `${builderName} must not use unique: ${unique}`);
+  }
+}
+
+const expectedImprovements = new Map([
+  ['Genesis Garden', { tech: 'Agriculture', terrains: ['Land'] }],
+  ['Continuum Spire', { tech: 'Writing', terrains: ['Land'] }],
+  ['Excavation Site', { tech: 'Archaeology', terrains: ['Land'] }],
+  ['Stellar Fishery', { tech: 'Sailing', terrains: ['Water'] }],
+  ['Abyssal Extractor', { tech: 'Refrigeration', terrains: ['Water'] }],
+  ['Quantum Reef', { tech: 'Ecology', terrains: ['Water'] }],
+  ['Orbital Dockyard', { tech: 'Navigation', terrains: ['Water'] }],
+  ['Riftway Nexus', { tech: 'Ascendant Physics', terrains: ['Land', 'Water'] }]
+]);
+assert(improvements.length === expectedImprovements.size, 'Expected exactly eight custom improvements');
+assert(
+  improvements.every(improvement => expectedImprovements.has(improvement.name)),
+  'TileImprovements.json contains an unexpected custom improvement'
+);
+for (const improvement of improvements) {
+  const expected = expectedImprovements.get(improvement.name);
+  assert(improvement.uniqueTo === 'Aetherion Ascendancy', `${improvement.name} must be unique to Aetherion Ascendancy`);
+  assert(improvement.turnsToBuild === 0, `${improvement.name} must have turnsToBuild 0`);
+  assert(improvement.techRequired === expected.tech, `${improvement.name} must require ${expected.tech}`);
+  assert(
+    Array.isArray(improvement.terrainsCanBeBuiltOn) && improvement.terrainsCanBeBuiltOn.length > 0,
+    `${improvement.name} must define buildable terrain`
+  );
+  assert(
+    improvement.terrainsCanBeBuiltOn.every(terrain => terrain === 'Land' || terrain === 'Water'),
+    `${improvement.name} may only use Land or Water terrain entries`
+  );
+  assert(
+    improvement.terrainsCanBeBuiltOn.length === expected.terrains.length &&
+      expected.terrains.every(terrain => improvement.terrainsCanBeBuiltOn.includes(terrain)),
+    `${improvement.name} must use terrain ${expected.terrains.join(' and ')}`
+  );
+}
+assert(
+  improvements.filter(improvement => improvement.terrainsCanBeBuiltOn.includes('Water')).length >= 5,
+  'Expected at least five water-compatible custom improvements'
+);
+const excavationSite = improvements.find(improvement => improvement.name === 'Excavation Site');
+assert(excavationSite?.techRequired === 'Archaeology', 'Excavation Site must unlock at Archaeology');
+
 for (const tech of techs) {
   for (const prerequisite of tech.prerequisites || []) {
     assert(availableTechs.has(prerequisite), `${tech.name} references unknown prerequisite ${prerequisite}`);
